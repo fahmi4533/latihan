@@ -17,6 +17,8 @@ type User struct {
 	Name  string
 	Saldo int
 }
+type Ysue struct {
+}
 
 func (credit *Produk) Cicilan(val int) {
 	arr := make([]int, val)
